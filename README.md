@@ -19,7 +19,7 @@ and an interval rule for frequent reading.
 -apply your filtration rules (whitelist/blacklist) by keywords or by AI-filtering, which will compare each news article against user's custom prompt.
 
 
-## Set multiple smart filters (keywords, AI-filtering) for news.
+## Set multiple smart filters (keywords, AI-filtering) for news:
 
 -create multiple keyword filter rules of either types (whitelist/blacklist)
 
