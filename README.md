@@ -1,4 +1,6 @@
-Listen to most relevant news multiple times a day using Text to speech engine:
+# KeyNews
+
+## Listen to most relevant news multiple times a day using Text to speech engine:
 
 -Repeated sessions allow user to have two types of repetition rules - interval (repeat every x) and scheduled.
 
@@ -10,14 +12,14 @@ and an interval rule for frequent reading.
 -other settings for Repeated sessions: to optionally include article's body (of RSS), to announce relevant age of article.
 
 
-Have multiple reading feeds, configured each of them for your convenience:
+## Have multiple reading feeds, configured each of them for your convenience:
 
 -configure each Reading feed to have any combination of your existing News sources.
 
 -apply your filtration rules (whitelist/blacklist) by keywords or by AI-filtering, which will compare each news article against user's custom prompt.
 
 
-Set multiple smart filters (keywords, AI-filtering) for news.
+## Set multiple smart filters (keywords, AI-filtering) for news.
 
 -create multiple keyword filter rules of either types (whitelist/blacklist)
 
