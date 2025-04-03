@@ -1,0 +1,23 @@
+<!-- res/layout/item_source_checkbox.xml -->
+<!-- CodeCleaner_Start_32a83385-b30b-431c-bbea-0dc77c305c40 -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvSourceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+<!-- CodeCleaner_End_32a83385-b30b-431c-bbea-0dc77c305c40 -->
+

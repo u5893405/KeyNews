@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:padding="16dp">
+
+    <!-- Rule type selection -->
+    <RadioGroup
+        android:id="@+id/rgRuleType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbInterval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Repeat every"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/rbSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Run at specific time" />
+        </RadioGroup>
+
+        <!-- Interval rule settings -->
+        <LinearLayout
+            android:id="@+id/layoutInterval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <EditText
+                android:id="@+id/etIntervalValue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Value"
+                android:inputType="number" />
+
+            <Spinner
+                android:id="@+id/spinnerIntervalUnit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/interval_units" />
+            </LinearLayout>
+
+            <!-- Schedule rule settings -->
+            <LinearLayout
+                android:id="@+id/layoutSchedule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Time:"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="HH:MM (e.g. 08:30)"
+                    android:inputType="none"
+                    android:focusable="false"
+                    android:clickable="true"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Days:"
+                    android:textStyle="bold" />
+
+                <!-- Two-column layout for days -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    
+                    <!-- Left column -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        
+                        <CheckBox
+                            android:id="@+id/cbMonday"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Monday" />
+                            
+                        <CheckBox
+                            android:id="@+id/cbWednesday"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Wednesday" />
+                            
+                        <CheckBox
+                            android:id="@+id/cbFriday"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Friday" />
+                            
+                        <CheckBox
+                            android:id="@+id/cbSunday"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Sunday" />
+                    </LinearLayout>
+                    
+                    <!-- Right column -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        
+                        <CheckBox
+                            android:id="@+id/cbTuesday"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Tuesday" />
+                            
+                        <CheckBox
+                            android:id="@+id/cbThursday"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Thursday" />
+                            
+                        <CheckBox
+                            android:id="@+id/cbSaturday"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Saturday" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>

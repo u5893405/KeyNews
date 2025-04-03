@@ -1,0 +1,9 @@
+<!-- res/layout/menu_divider.xml -->
+<!-- CodeCleaner_Start_9d667a3f-f36d-4d58-986d-a8b9516045d4 -->
+<View
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="?android:attr/listDivider" />
+<!-- CodeCleaner_End_9d667a3f-f36d-4d58-986d-a8b9516045d4 -->
+

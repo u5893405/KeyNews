@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_show_unread"
+        android:title="Show unread only articles" />
+    <item
+        android:id="@+id/menu_show_all"
+        android:title="Show all articles" />
+</menu>

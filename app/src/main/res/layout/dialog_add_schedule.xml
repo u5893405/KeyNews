@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- CodeCleaner_Start_3d0349bf-90ec-410a-bbff-5da12b65f51e -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Just basic fields for demonstration -->
+    <EditText
+        android:id="@+id/etFeedId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Feed ID (long)" />
+
+    <EditText
+        android:id="@+id/etDaysOfWeek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Days of week (e.g. Mon,Wed,Fri)" />
+
+    <EditText
+        android:id="@+id/etTimesOfDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Times of day (e.g. 08:00,12:00)" />
+
+    <EditText
+        android:id="@+id/etHeadlinesLimit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Headlines limit" />
+
+    <EditText
+        android:id="@+id/etDelay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Delay between articles (sec)" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp">
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Cancel" />
+    </LinearLayout>
+</LinearLayout><!-- CodeCleaner_End_3d0349bf-90ec-410a-bbff-5da12b65f51e -->

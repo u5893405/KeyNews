@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select data to backup"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <CheckBox
+        android:id="@+id/cbBackupSources"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sources"
+        android:checked="true" />
+
+    <CheckBox
+        android:id="@+id/cbBackupReadingFeeds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reading Feeds"
+        android:checked="true" />
+
+    <CheckBox
+        android:id="@+id/cbBackupKeywordRules"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Keyword Rules"
+        android:checked="true" />
+
+    <CheckBox
+        android:id="@+id/cbBackupRepeatedSessions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Repeated Sessions"
+        android:checked="true" />
+
+    <CheckBox
+        android:id="@+id/cbBackupSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:checked="true" />
+
+    <CheckBox
+        android:id="@+id/cbBackupReadMarks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="'Already Read' Marks"
+        android:checked="true" />
+
+    <CheckBox
+        android:id="@+id/cbBackupAiRules"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AI Filtering Rules"
+        android:checked="true" />
+
+    <CheckBox
+        android:id="@+id/cbBackupAiFilterCache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AI Filtering Cache"
+        android:checked="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Backup Location"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etBackupPath"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:hint="Path to save backup"
+            android:enabled="false" />
+
+        <Button
+            android:id="@+id/btnChooseBackupLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btnCancelBackup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btnExport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Export"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+</LinearLayout>

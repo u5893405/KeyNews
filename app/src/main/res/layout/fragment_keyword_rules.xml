@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- CodeCleaner_Start_154b71cb-8fd4-45cd-bfd3-2a1d20f36c04 -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keyword_rules_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnAddRule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Keyword Rule" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvKeywordRules"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout><!-- CodeCleaner_End_154b71cb-8fd4-45cd-bfd3-2a1d20f36c04 -->
