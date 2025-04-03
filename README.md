@@ -17,6 +17,7 @@ and an interval rule for frequent reading.
 -configure each Reading feed to have any combination of your existing News sources.
 
 -apply your filtration rules (whitelist/blacklist) by keywords or by AI-filtering, which will compare each news article against user's custom prompt.
+You will need to obtain your own Gemini API key ( https://aistudio.google.com/apikey ) and paste it in settings.
 
 
 ## Set multiple smart filters (keywords, AI-filtering) for news:
