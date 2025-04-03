@@ -20,7 +20,11 @@ Have multiple reading feeds, configured each of them for your convenience:
 Set multiple smart filters (keywords, AI-filtering) for news.
 
 -create multiple keyword filter rules of either types (whitelist/blacklist)
+
 -optionally, import your own list of keywords from file
+
 -apply a number of keyword rules to any reading feed
+
 -create multiple AI-filtering rules of either types (whitelist/blacklist)
+
 -apply up to one AI-filtering rule of both types to a feed (it only can have 1 whitelist and 1 blacklist of AI-filtering max)
