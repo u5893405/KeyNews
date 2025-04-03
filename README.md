@@ -14,6 +14,8 @@ and an interval rule for frequent reading.
 
 ## Have multiple reading feeds, configured each of them for your convenience:
 
+-user has to provide links of RSS feed of their news source (subject for possible improvements later)
+
 -configure each Reading feed to have any combination of your existing News sources.
 
 -apply your filtration rules (whitelist/blacklist) by keywords or by AI-filtering, which will compare each news article against user's custom prompt.
